@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="gallery02.css"></head>
+<style>
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+
+<body>
+
+<div class="header">
+  <h1>Gallery</h1>
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <img src="/images/seaturtle.jpg" style="width:100%">
+    <img src="/images/ocean.jpg" style="width:100%">
+    <img src="/images/Maui.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/images/hawaii01.jpg" style="width:100%">
+    <img src="/images/Hawaii03.jpg" style="width:100%">
+    <img src="/images/Maui02.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/images/Hawaii03.jpg" style="width:100%">
+    <img src="/images/ocean.jpg" style="width:100%">
+    <img src="/images/seaturtle.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/images/hawaii02.jpg" style="width:100%">
+    <img src="/images/ocean.jpg" style="width:100%">
+    <img src="/images/Maui.jpg" style="width:100%">
+  </div>
+</div>
+</body>
+</html>
